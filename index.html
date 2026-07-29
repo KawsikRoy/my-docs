@@ -391,9 +391,19 @@
 
 
 
+<script>
+  function checkPassword() {
+    const password = prompt("Enter password to view this documentation:");
+    const correctPassword = "1234"; // Change this
+    if (password !== correctPassword) {
+      document.body.innerHTML = "<h1>Access Denied</h1>";
+    }
+  }
+  checkPassword();
+</script>
+
 <h1 id="welcome-to-my-docs">Welcome to My Docs</h1>
-<p>This is my documentation site.
-hi</p>
+<p>This is my documentation site.</p>
 
 
 
