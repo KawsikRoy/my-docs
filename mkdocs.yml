@@ -18,6 +18,9 @@ theme:
     - search.suggest
     - search.highlight
     - content.code.copy
+  font:
+    text: Noto Serif Bengali
+    code: Noto Sans Mono
 
 docs_dir: docs
 site_dir: site
@@ -35,3 +38,5 @@ extra:
       link: https://github.com/yourname
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/yourname
+
+copyright: Copyright &copy; 2026
