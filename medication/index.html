@@ -568,6 +568,17 @@
 
 
 
+<script>
+  function checkPassword() {
+    const password = prompt("Enter password to view this documentation:");
+    const correctPassword = "1234"; // Change this
+    if (password !== correctPassword) {
+      document.body.innerHTML = "<h1>Access Denied</h1>";
+    }
+  }
+  checkPassword();
+</script>
+
 <h1 id="_1"><strong>একজন চিকিৎসকের জন্য রোগী দেখার আদর্শ পদ্ধতি ও শিষ্টাচার</strong></h1>
 <h2 id="_2"><strong>১</strong>. শুরুর ধাপ: সম্বোধন ও মানসিক সমর্থন</h2>
 <ul>
