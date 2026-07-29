@@ -1,3 +1,16 @@
+<script>
+  function checkPassword() {
+    const password = prompt("Enter password to view this documentation:");
+    const correctPassword = "1234"; // Change this
+    if (password !== correctPassword) {
+      document.body.innerHTML = "<h1>Access Denied</h1>";
+    }
+  }
+  checkPassword();
+</script>
+
+
+
 # **একজন চিকিৎসকের জন্য রোগী দেখার আদর্শ পদ্ধতি ও শিষ্টাচার**
 
 ## **১**. শুরুর ধাপ: সম্বোধন ও মানসিক সমর্থন
