@@ -1,9 +1,37 @@
 site_name: My Documentation
+site_description: My awesome documentation site
+
 theme:
   name: material
+  palette:
+    scheme: slate  # Options: default, slate
+    primary: blue
+    accent: orange
+  
+  logo: https://via.placeholder.com/150  # Optional: add your logo URL
+  favicon: https://via.placeholder.com/16  # Optional: add favicon URL
+  
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.expand
+    - search.suggest
+    - search.highlight
+    - content.code.copy
 
 docs_dir: docs
 site_dir: site
 
 nav:
   - Home: index.md
+  - Getting Started: getting-started.md
+
+plugins:
+  - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/yourname
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/yourname
