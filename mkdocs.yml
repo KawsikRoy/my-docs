@@ -28,6 +28,7 @@ site_dir: site
 nav:
   - Home: index.md
   - Getting Started: getting-started.md
+  - Demo Page: medication.md
 
 plugins:
   - search
